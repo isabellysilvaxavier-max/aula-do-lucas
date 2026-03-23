@@ -1,27 +1,11 @@
-body{
-    background-color: #000000; /*muda cor de fundo*/
-     color: #ffffff; /*muda cor letra*/
-     display:flex; /*organiza os elementos*/
-     justify-content: space-around; /*cria espaço igual entre os elementos*/
-     margin: top 150px; /*Define a margem do topo*/
-}
-h1{
-    font-size: 32px; /*altera tamanho da fonte*/
-}
-p{
-    font: size 22px;
-}
-div{
-    width: 500px;
-    padding: 20px;
+:root{
+   --branco-principal: #ffffff;
+   --cinza-secundario: #c0c0c0;
+   --botao-azul: #167bf7;
+   --cor-de-fundo: #00030c;
 }
 
-button{
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0 20px;
-    background-color: #fffefe;
+body{
+    background-color:var(--cor-de-fundo);
+    color:var(--branco-principal);
 }
-    
